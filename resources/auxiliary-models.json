@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "resources": [
+    {
+      "path": "modules/transcription/native/resources/nemo128.onnx",
+      "bytes": 138824,
+      "sha256": "5b4a84c52eeaa615dc46d781cc7e4598f9b432184831d57493c48adcd01371a9",
+      "license": "MIT",
+      "upstream": "https://github.com/istupakov/onnx-asr",
+      "notice": "resources/licenses/transcription/onnx-asr-MIT.txt"
+    },
+    {
+      "path": "modules/transcription/native/resources/silero_vad.onnx",
+      "bytes": 2327524,
+      "sha256": "1a153a22f4509e292a94e67d6f9b85e8deb25b4988682b7e174c65279d8788e3",
+      "license": "MIT",
+      "upstream": "https://github.com/snakers4/silero-vad",
+      "notice": "resources/licenses/transcription/Silero-MIT.txt"
+    }
+  ]
+}

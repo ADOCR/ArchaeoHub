@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "workbench.photo-catalog",
+  "version": "0.5.2",
+  "name": {
+    "es": "Catálogo arqueológico",
+    "en": "Archaeological catalog"
+  },
+  "description": {
+    "es": "Catalogación fotográfica con vista previa, contexto arqueológico y entrega al Museo."
+  },
+  "runtime": "native",
+  "entrypoint": {
+    "path": "modules/catalog/engine/CatalogWorker.exe"
+  },
+  "status": "active",
+  "icon": "catalog",
+  "categoryIds": [
+    "registration",
+    "photography"
+  ],
+  "capabilities": [
+    "workspace",
+    "catalog",
+    "export",
+    "gps"
+  ],
+  "supportedFileTypes": [
+    "image/*"
+  ],
+  "author": "ADOCR",
+  "privacy": {
+    "processing": "local"
+  }
+}

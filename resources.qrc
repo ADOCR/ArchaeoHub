@@ -1,0 +1,23 @@
+<RCC><qresource prefix="/">
+<file>resources/branding.json</file>
+<file>resources/app.ico</file>
+<file>resources/project-templates/archaeology.json</file>
+<file>modules/transcription/tool.json</file><file>modules/catalog/tool.json</file><file>modules/coordinates/tool.json</file>
+<file>modules/documents/tool.json</file><file>modules/inventory/tool.json</file><file>ui/pages/InventoryPage.qml</file>
+<file>ui/Main.qml</file><file>ui/themes/qmldir</file><file>ui/themes/Theme.qml</file>
+<file>ui/components/Symbol.qml</file><file>ui/components/ActionButton.qml</file><file>ui/components/IconButton.qml</file>
+<file>ui/components/AppField.qml</file><file>ui/components/GlassSurface.qml</file><file>ui/components/StatusBadge.qml</file>
+<file>ui/components/FrostedGlass.qml</file><file>ui/components/MaterialBackdrop.qml</file>
+<file>ui/components/EmptyState.qml</file><file>ui/components/NavItem.qml</file><file>ui/components/ToolCard.qml</file>
+<file>ui/components/CommandPalette.qml</file>
+<file>ui/components/NewProjectDialog.qml</file>
+<file>ui/pages/HomePage.qml</file><file>ui/pages/ToolsPage.qml</file><file>ui/pages/ToolPage.qml</file>
+<file>ui/pages/CatalogPage.qml</file>
+<file>ui/pages/CoordinatePage.qml</file>
+<file>ui/pages/TranscriptionPage.qml</file>
+<file>ui/pages/DocumentPage.qml</file>
+<file>ui/pages/DocumentSummaryPage.qml</file>
+<file>ui/pages/DocumentLibraryPage.qml</file>
+<file>ui/pages/DocumentConversionPage.qml</file>
+<file>ui/pages/ProjectsPage.qml</file><file>ui/pages/ActivityPage.qml</file><file>ui/pages/SettingsPage.qml</file>
+</qresource></RCC>

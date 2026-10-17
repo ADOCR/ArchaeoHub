@@ -1,0 +1,11 @@
+{
+  "qtRoot": "<Qt SDK prefix>",
+  "visualStudioRoot": "<Visual Studio installation>",
+  "python": "<development Python executable>",
+  "nsis": "<makensis executable>",
+  "projIncludePath": "<PROJ include directory>",
+  "projBinPath": "<PROJ runtime directory>",
+  "projDataPath": "<PROJ data directory>",
+  "transcriptionSdkPath": "<native transcription SDK>",
+  "transcriptionRuntimePath": "<prepared transcription runtime>"
+}

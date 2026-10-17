@@ -1,0 +1,9 @@
+{
+  "sourceVersion": "2.4.5",
+  "domainBoundary": 1422,
+  "files": {
+    "catalogador_pozos.py": "0e9380b3b1b8802223b4542bef28bd92442900f84bfd4f3b441f8e0c88df99b2",
+    "georreferenciacion.py": "02b2c9b040dc5afc9ee9ec700d37b49ee2e71c8180a8feb6f5e64c4f20b4c829",
+    "gps_manual.py": "e30ba2a94d8cc8423199fbdb70365a6bd3bc6536d52e75c09c75ae86ff2bc966"
+  }
+}

@@ -1,0 +1,43 @@
+ARCHAEOHUB — COMPONENTES DE TERCEROS
+
+Lee las condiciones de los componentes incluidos antes de continuar.
+La aceptación se refiere a las condiciones que correspondan a cada componente.
+No cambia su licencia, titularidad o derechos concedidos, ni establece por sí sola
+una licencia abierta o propietaria para el código original de ArchaeoHub.
+
+Esta distribución local incluye:
+- Qt 6: bibliotecas dinámicas y condiciones LGPLv3 / licencias de terceros.
+- PROJ: transformación geodésica y base de definiciones, con sus avisos.
+- Python, Pillow, pillow-heif y openpyxl: catálogo y lectura/escritura Excel.
+- pypdf: lectura local de PDF. El resumen usa un servicio Ollama local y modelos
+  instalados por separado; no se incluyen ni descargan automáticamente.
+- whisper.cpp / ggml, ONNX Runtime, onnx-asr y Silero VAD: transcripción local.
+- NVIDIA CUDA Runtime y cuBLAS: componentes redistribuibles para aceleración GPU.
+  Se aplican las condiciones NVIDIA incluidas; no se instala el Toolkit ni drivers.
+- FFmpeg: ejecutable separado bajo GPLv3 o posterior, según esta compilación.
+
+Los modelos grandes de transcripción NO forman parte del instalador. Pueden
+reutilizarse desde una carpeta existente o descargarse por una acción explícita.
+Whisper y Parakeet conservan sus respectivas condiciones (MIT / CC-BY-4.0).
+La descarga muestra un aviso propio y no envía tus grabaciones al proveedor.
+
+Al instalar puedes consultar nuevamente los textos completos en licenses/ y
+THIRD_PARTY.md, accesibles también desde Ayuda. No se limitan los derechos que
+las licencias de software libre conceden respecto a sus propios componentes.
+
+Fuentes oficiales e información de los componentes:
+https://www.qt.io/development/open-source-lgpl-obligations
+https://proj.org/
+https://www.python.org/psf/license/
+https://github.com/ggml-org/whisper.cpp
+https://github.com/microsoft/onnxruntime
+https://github.com/istupakov/onnx-asr
+https://github.com/snakers4/silero-vad
+https://docs.nvidia.com/cuda/eula/
+https://ffmpeg.org/legal.html
+https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3
+https://creativecommons.org/licenses/by/4.0/
+
+A continuación se incluyen los textos locales de licencia, sin sustituirlos por
+este resumen. Para una publicación comercial deberá revisarse el paquete final,
+sus fuentes correspondientes y el cumplimiento de cada licencia.

@@ -1,0 +1,37 @@
+{
+  "Pillow": {
+    "version": "12.3.0",
+    "notices": [
+      "Pillow/LICENSE"
+    ]
+  },
+  "openpyxl": {
+    "version": "3.1.5",
+    "notices": [
+      "openpyxl/LICENCE.rst"
+    ]
+  },
+  "pillow-heif": {
+    "version": "1.8.0",
+    "notices": [
+      "pillow-heif/LICENSE.txt",
+      "pillow-heif/LICENSES_bundled.txt"
+    ]
+  },
+  "et-xmlfile": {
+    "version": "2.0.0",
+    "notices": [
+      "et-xmlfile/LICENCE.python",
+      "et-xmlfile/LICENCE.rst"
+    ]
+  },
+  "PyInstaller": {
+    "version": "6.22.3",
+    "notices": [
+      "PyInstaller/COPYING.txt"
+    ]
+  },
+  "Python": {
+    "version": "3.12.10"
+  }
+}

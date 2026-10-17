@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "workbench.transcription",
+  "version": "0.5.2",
+  "name": {
+    "es": "Transcripción",
+    "en": "Transcription"
+  },
+  "description": {
+    "es": "Convierte audio y video en texto, subtítulos y minutas con tus modelos locales."
+  },
+  "runtime": "native",
+  "entrypoint": {
+    "path": "modules/transcription/engine/TranscriptionWorker.exe"
+  },
+  "icon": "transcription",
+  "categoryIds": [
+    "documentation"
+  ],
+  "capabilities": [
+    "workspace",
+    "transcribe",
+    "export"
+  ],
+  "supportedFileTypes": [
+    "audio/*",
+    "video/*"
+  ],
+  "author": "ADOCR",
+  "privacy": {
+    "processing": "local",
+    "networkUses": [
+      "optional-model-download",
+      "optional-local-ollama"
+    ]
+  }
+}

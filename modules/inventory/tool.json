@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "workbench.inventory",
+  "version": "0.5.2",
+  "name": {
+    "es": "Inventario de materiales",
+    "en": "Materials inventory"
+  },
+  "description": {
+    "es": "Ingreso por contexto y envase, trazabilidad y análisis de materiales."
+  },
+  "runtime": "native",
+  "entrypoint": {
+    "path": "modules/inventory/engine/InventoryWorker.exe"
+  },
+  "icon": "tools",
+  "categoryIds": [
+    "laboratory"
+  ],
+  "capabilities": [
+    "workspace",
+    "inventory",
+    "export"
+  ],
+  "supportedFileTypes": [
+    ".ahinv",
+    ".json",
+    ".csv",
+    ".xlsx"
+  ],
+  "author": "ADOCR",
+  "privacy": {
+    "processing": "local",
+    "networkUses": []
+  }
+}

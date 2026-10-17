@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "workbench.coordinates",
+  "version": "0.5.3",
+  "name": {
+    "es": "Coordenadas",
+    "en": "Coordinates"
+  },
+  "description": {
+    "es": "CRS buscables, formatos GD/GMS, conversión PROJ, lotes y exportación con procedencia."
+  },
+  "runtime": "native",
+  "status": "active",
+  "entrypoint": {
+    "path": "CoordinateWorker.exe"
+  },
+  "icon": "coordinates",
+  "categoryIds": [
+    "gis",
+    "data"
+  ],
+  "capabilities": [
+    "workspace",
+    "convert",
+    "format",
+    "batch",
+    "export"
+  ],
+  "supportedFileTypes": [
+    "text/csv",
+    "text/plain"
+  ],
+  "author": "ADOCR",
+  "privacy": {
+    "processing": "local"
+  }
+}

@@ -1,0 +1,10 @@
+name: Propuesta
+description: Propón una mejora concreta
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Problema y comportamiento propuesto
+      description: Describe el trabajo arqueológico que facilitaría, sin compartir datos privados.
+    validations:
+      required: true

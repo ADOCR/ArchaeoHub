@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "workbench.document-summary",
+  "version": "0.5.2",
+  "name": {
+    "es": "Gestión documental",
+    "en": "Document management"
+  },
+  "description": {
+    "es": "Convierte lotes a Markdown, crea redes para Obsidian y resume con tu modelo local."
+  },
+  "runtime": "native",
+  "entrypoint": {
+    "path": "modules/documents/engine/DocumentWorker.exe"
+  },
+  "icon": "document",
+  "categoryIds": [
+    "documentation"
+  ],
+  "capabilities": [
+    "workspace",
+    "summarize",
+    "export",
+    "batch-convert",
+    "knowledge-links"
+  ],
+  "supportedFileTypes": [
+    ".pdf",
+    ".md",
+    ".docx"
+  ],
+  "author": "ADOCR",
+  "privacy": {
+    "processing": "local",
+    "networkUses": [
+      "local-ollama-loopback"
+    ]
+  }
+}

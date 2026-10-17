@@ -1,0 +1,4 @@
+<RCC><qresource prefix="/models">
+<file alias="nemo128.onnx">resources/nemo128.onnx</file>
+<file alias="silero_vad.onnx">resources/silero_vad.onnx</file>
+</qresource></RCC>

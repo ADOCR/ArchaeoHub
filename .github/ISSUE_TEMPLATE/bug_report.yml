@@ -1,0 +1,19 @@
+name: Error
+description: Informa un fallo con datos sintéticos
+body:
+  - type: markdown
+    attributes:
+      value: No adjuntes datos arqueológicos, rutas personales ni credenciales. Para vulnerabilidades usa el canal de SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Versión y sistema operativo
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Incluye resultado esperado y observado, usando un ejemplo sintético.
+    validations:
+      required: true
