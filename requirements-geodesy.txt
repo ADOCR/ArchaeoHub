@@ -1,2 +1,2 @@
 # Comprobaciones opcionales de referencia; el motor geodésico utiliza PROJ directamente.
-pyproj==3.7.2
+pyproj==3.8.0
